@@ -1,10 +1,10 @@
 {
-  "name": "safari-push-notifications",
-  "version": "0.5.0",
+  "name": "node-safari-push-notifications",
+  "version": "1.2.1",
   "description": "Helper methods for generating resources required by Apple's Safari Push Notifications (http://apple.co/1P39vbY)",
   "main": "src/index.js",
   "engines": {
-    "node": ">=8.0.0 <13.0.0"
+    "node": ">=8.0.0 <15.0.0"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -21,12 +21,12 @@
     "notifications",
     "apple"
   ],
-  "author": "Kobi Meirson <kobi@right.co.il>",
+  "author": "Eray KIZILTAS <eray@visionf.com.tr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MySiteApp/node-safari-push-notifications/issues"
+    "url": "https://github.com/ekiziltas/node-safari-push-notifications/issues"
   },
-  "homepage": "https://github.com/MySiteApp/node-safari-push-notifications",
+  "homepage": "https://github.com/ekiziltas/node-safari-push-notifications",
   "dependencies": {
     "bindings": "^1.5.0",
     "jszip": "^3.5.0",
